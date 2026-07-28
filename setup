@@ -1,0 +1,42 @@
+## 1. Get a free API key
+
+Only one is needed: **EIA** (used for both the US layer and the oil
+benchmarks) — register at https://www.eia.gov/opendata/register.php, just an
+email address, instant.
+
+The EU, UK, and Canada sources need no key at all — they're public
+government data/statistics endpoints.
+
+## 2. Push this to GitHub, then add the key as a secret
+
+1. Push this folder to a new GitHub repository.
+
+2. **Settings → Secrets and variables → Actions → New repository secret**
+
+3. Add `EIA_API_KEY` with your EIA key.
+
+If it's missing, the US script and the oil benchmark script just log a
+message and leave their existing JSON files untouched — nothing else breaks.
+
+## 3. Enable GitHub Pages
+
+**Settings → Pages → Source → Deploy from a branch → `main` / `(root)`**
+
+Your site will be live at `https://<your-username>.github.io/<repo-name>/`.
+
+## 4. Run the data pipeline
+
+Runs automatically every 6 hours via `.github/workflows/update-data.yml`. To
+fetch immediately: **Actions tab → "Update fuel & oil price data" → Run workflow**.
+
+To test locally:
+
+```bash
+pip install -r scripts/requirements.txt
+export EIA_API_KEY=your_key_here
+python scripts/fetch_us.py
+python scripts/fetch_eu.py
+python scripts/fetch_uk.py
+python scripts/fetch_canada.py
+python scripts/fetch_oil.py
+```
