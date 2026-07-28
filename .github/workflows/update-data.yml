@@ -1,0 +1,58 @@
+name: Update fuel & oil price data
+
+on:
+  schedule:
+    # Once every 6 hours. All sources here are weekly/monthly government
+    # averages, so there's no benefit to polling more often than that — this
+    # just keeps the "last updated" badge honest if a source republishes.
+    - cron: "20 */6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install openpyxl
+
+      - name: Fetch US (EIA)
+        env:
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+        run: python scripts/fetch_us.py
+
+      - name: Fetch EU (Weekly Oil Bulletin)
+        run: python scripts/fetch_eu.py
+
+      - name: Fetch UK (DESNZ)
+        run: python scripts/fetch_uk.py
+
+      - name: Fetch Canada (StatCan)
+        run: python scripts/fetch_canada.py
+
+      - name: Fetch oil benchmarks (EIA)
+        env:
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+        run: python scripts/fetch_oil.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          git diff --quiet --cached || git commit -m "Update fuel & oil price data [skip ci]"
+          git push
