@@ -27,7 +27,7 @@ from urllib.error import HTTPError, URLError
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_FILE = ROOT / "data" / "uk.json"
 STATS_PAGE = "https://www.gov.uk/government/statistics/weekly-road-fuel-prices"
-HEADERS = {"User-Agent": "pump-fuelmap/1.0 (open-source fuel price map; github.com/YOUR_USERNAME/YOUR_REPO)"}
+HEADERS = {"User-Agent": "pump-fuelmap/1.0 (open-source fuel price map; https://github.com/sebyho/fuelmap)"}
 
 # Centre-of-UK-ish point for a single national marker
 UK_LAT, UK_LON = 54.0, -2.5
