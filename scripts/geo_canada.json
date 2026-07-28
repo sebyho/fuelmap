@@ -1,0 +1,24 @@
+{
+  "cities": {
+    "CANADA": { "display": "Canada (national average)", "province": null, "lat": 56.1, "lon": -106.3 },
+    "ST. JOHN'S": { "display": "St. John's", "province": "NL", "lat": 47.56, "lon": -52.71 },
+    "CHARLOTTETOWN": { "display": "Charlottetown", "province": "PE", "lat": 46.24, "lon": -63.13 },
+    "HALIFAX": { "display": "Halifax", "province": "NS", "lat": 44.65, "lon": -63.57 },
+    "SAINT JOHN": { "display": "Saint John", "province": "NB", "lat": 45.27, "lon": -66.06 },
+    "QUEBEC": { "display": "Qu\u00e9bec City", "province": "QC", "lat": 46.81, "lon": -71.21 },
+    "MONTREAL": { "display": "Montr\u00e9al", "province": "QC", "lat": 45.50, "lon": -73.57 },
+    "OTTAWA": { "display": "Ottawa", "province": "ON", "lat": 45.42, "lon": -75.70 },
+    "TORONTO": { "display": "Toronto", "province": "ON", "lat": 43.65, "lon": -79.38 },
+    "THUNDER BAY": { "display": "Thunder Bay", "province": "ON", "lat": 48.38, "lon": -89.25 },
+    "WINNIPEG": { "display": "Winnipeg", "province": "MB", "lat": 49.90, "lon": -97.14 },
+    "REGINA": { "display": "Regina", "province": "SK", "lat": 50.45, "lon": -104.62 },
+    "SASKATOON": { "display": "Saskatoon", "province": "SK", "lat": 52.13, "lon": -106.67 },
+    "EDMONTON": { "display": "Edmonton", "province": "AB", "lat": 53.55, "lon": -113.49 },
+    "CALGARY": { "display": "Calgary", "province": "AB", "lat": 51.05, "lon": -114.07 },
+    "VANCOUVER": { "display": "Vancouver", "province": "BC", "lat": 49.28, "lon": -123.12 },
+    "VICTORIA": { "display": "Victoria", "province": "BC", "lat": 48.43, "lon": -123.37 },
+    "WHITEHORSE": { "display": "Whitehorse", "province": "YT", "lat": 60.72, "lon": -135.05 },
+    "YELLOWKNIFE": { "display": "Yellowknife", "province": "NT", "lat": 62.45, "lon": -114.37 },
+    "IQALUIT": { "display": "Iqaluit", "province": "NU", "lat": 63.75, "lon": -68.51 }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name_to_code": {
+    "AUSTRIA": "AT", "BELGIUM": "BE", "BULGARIA": "BG", "CROATIA": "HR",
+    "CYPRUS": "CY", "CZECHIA": "CZ", "CZECH REPUBLIC": "CZ", "DENMARK": "DK",
+    "ESTONIA": "EE", "FINLAND": "FI", "FRANCE": "FR", "GERMANY": "DE",
+    "GREECE": "EL", "GREECE (EL)": "EL", "HUNGARY": "HU", "IRELAND": "IE",
+    "ITALY": "IT", "LATVIA": "LV", "LITHUANIA": "LT", "LUXEMBOURG": "LU",
+    "MALTA": "MT", "NETHERLANDS": "NL", "POLAND": "PL", "PORTUGAL": "PT",
+    "ROMANIA": "RO", "SLOVAKIA": "SK", "SLOVENIA": "SI", "SPAIN": "ES",
+    "SWEDEN": "SE", "EUROPEAN UNION": "EU", "EU": "EU", "EU27": "EU",
+    "EU 27": "EU", "EURO AREA": "EA"
+  },
+  "code_to_display": {
+    "AT": "Austria", "BE": "Belgium", "BG": "Bulgaria", "HR": "Croatia",
+    "CY": "Cyprus", "CZ": "Czechia", "DK": "Denmark", "EE": "Estonia",
+    "FI": "Finland", "FR": "France", "DE": "Germany", "EL": "Greece",
+    "HU": "Hungary", "IE": "Ireland", "IT": "Italy", "LV": "Latvia",
+    "LT": "Lithuania", "LU": "Luxembourg", "MT": "Malta", "NL": "Netherlands",
+    "PL": "Poland", "PT": "Portugal", "RO": "Romania", "SK": "Slovakia",
+    "SI": "Slovenia", "ES": "Spain", "SE": "Sweden"
+  },
+  "centroid": {
+    "AT": [47.6, 14.1], "BE": [50.6, 4.6], "BG": [42.7, 25.3], "HR": [45.3, 16.4],
+    "CY": [35.1, 33.3], "CZ": [49.8, 15.4], "DK": [56.1, 9.6], "EE": [58.7, 25.5],
+    "FI": [63.9, 26.9], "FR": [46.7, 2.5], "DE": [51.1, 10.3], "EL": [39.5, 22.9],
+    "HU": [47.1, 19.5], "IE": [53.2, -8.0], "IT": [42.8, 12.6], "LV": [56.9, 24.9],
+    "LT": [55.3, 23.9], "LU": [49.8, 6.1], "MT": [35.9, 14.4], "NL": [52.3, 5.6],
+    "PL": [52.0, 19.5], "PT": [39.6, -8.2], "RO": [45.9, 24.9], "SK": [48.7, 19.5],
+    "SI": [46.1, 14.9], "ES": [40.3, -3.7], "SE": [62.2, 15.6]
+  }
+}

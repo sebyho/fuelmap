@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pump &mdash; fuel prices by country &amp; state</title>
+<meta name="description" content="Broad fuel price averages across the US (by state/region), the EU, UK and Canada, plus WTI and Brent crude benchmarks." />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=6" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">&#9679;</span>
+    <span class="brand-name">PUMP</span>
+    <span class="brand-sub">fuel prices by country &amp; state</span>
+  </div>
+
+  <div class="ticker-wrap" id="ticker-wrap" aria-label="Crude oil benchmarks">
+    <div class="ticker" id="ticker">
+      <span class="ticker-item">loading benchmarks&hellip;</span>
+    </div>
+  </div>
+
+  <div class="status" id="global-status">
+    <span class="dot dot-live"></span> connecting&hellip;
+  </div>
+</header>
+
+<main class="stage">
+  <div id="map"></div>
+
+  <div class="panel-stack">
+  <section class="panel panel-controls" aria-label="Filters">
+    <div class="panel-row">
+      <span class="panel-label">Region</span>
+      <div class="chips" id="region-chips">
+        <button class="chip active" data-region="all">All</button>
+        <button class="chip" data-region="us">United States</button>
+        <button class="chip" data-region="eu">EU</button>
+        <button class="chip" data-region="uk">UK</button>
+        <button class="chip" data-region="ca">Canada</button>
+      </div>
+    </div>
+    <div class="panel-row">
+      <span class="panel-label">Fuel</span>
+      <div class="chips" id="fuel-chips">
+        <button class="chip active" data-fuel="gasoline">Gasoline / Petrol</button>
+        <button class="chip" data-fuel="diesel">Diesel</button>
+      </div>
+    </div>
+    <div class="panel-row legend-row">
+      <span class="panel-label">Price</span>
+      <div class="legend">
+        <span class="legend-swatch cheap"></span><span class="legend-text">cheap</span>
+        <span class="legend-gradient"></span>
+        <span class="legend-swatch pricey"></span><span class="legend-text">expensive</span>
+      </div>
+    </div>
+    <div class="panel-row">
+      <span class="panel-note">Colors compare within each region group (US vs EU vs UK vs Canada) &mdash; currencies and units differ, so they aren&rsquo;t mixed on one scale.</span>
+    </div>
+  </section>
+
+  <section class="panel panel-sources" aria-label="Data freshness">
+    <div class="panel-title">Sources</div>
+    <ul id="source-list" class="source-list">
+      <li class="source-item"><span class="source-name">US &middot; EIA</span><span class="source-meta" data-source-meta="us">&mdash;</span></li>
+      <li class="source-item"><span class="source-name">EU &middot; Oil Bulletin</span><span class="source-meta" data-source-meta="eu">&mdash;</span></li>
+      <li class="source-item"><span class="source-name">UK &middot; DESNZ</span><span class="source-meta" data-source-meta="uk">&mdash;</span></li>
+      <li class="source-item"><span class="source-name">Canada &middot; StatCan</span><span class="source-meta" data-source-meta="ca">&mdash;</span></li>
+      <li class="source-item"><span class="source-name">Benchmarks &middot; EIA</span><span class="source-meta" data-source-meta="oil">&mdash;</span></li>
+    </ul>
+  </section>
+</div>
+</main>
+
+<footer class="foot">
+  <span>Data: <a href="https://www.eia.gov/" target="_blank" rel="noopener">EIA</a> (public domain) &middot;
+  <a href="https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en" target="_blank" rel="noopener">EU Oil Bulletin</a> (CC BY 4.0) &middot;
+  <a href="https://www.gov.uk/government/statistics/weekly-road-fuel-prices" target="_blank" rel="noopener">DESNZ</a> (OGL) &middot;
+  <a href="https://www150.statcan.gc.ca/" target="_blank" rel="noopener">Statistics Canada</a> (Open Licence) &middot;
+  map tiles &copy; <a href="https://stadiamaps.com/" target="_blank" rel="noopener">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/" target="_blank" rel="noopener">OpenMapTiles</a>, &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors</span>
+  <a href="https://github.com/" id="repo-link" target="_blank" rel="noopener">source on GitHub</a>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="js/app.js?v=6"></script>
+</body>
+</html>

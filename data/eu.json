@@ -1,0 +1,359 @@
+{
+  "updated_at": "2026-07-28T15:19:33Z",
+  "source": "European Commission, Weekly Oil Bulletin (DG ENER)",
+  "unit": "EUR/L",
+  "note": "National average consumer prices including all taxes, as reported by each member state.",
+  "regions": [
+    {
+      "id": "EU-AT",
+      "name": "Austria",
+      "level": "country",
+      "lat": 47.6,
+      "lon": 14.1,
+      "gasoline": {
+        "value": 1.833
+      },
+      "diesel": {
+        "value": 1.931
+      }
+    },
+    {
+      "id": "EU-BE",
+      "name": "Belgium",
+      "level": "country",
+      "lat": 50.6,
+      "lon": 4.6,
+      "gasoline": {
+        "value": 1.856
+      },
+      "diesel": {
+        "value": 2.06
+      }
+    },
+    {
+      "id": "EU-BG",
+      "name": "Bulgaria",
+      "level": "country",
+      "lat": 42.7,
+      "lon": 25.3,
+      "gasoline": {
+        "value": 1.477
+      },
+      "diesel": {
+        "value": 1.578
+      }
+    },
+    {
+      "id": "EU-HR",
+      "name": "Croatia",
+      "level": "country",
+      "lat": 45.3,
+      "lon": 16.4,
+      "gasoline": {
+        "value": 1.601
+      },
+      "diesel": {
+        "value": 1.721
+      }
+    },
+    {
+      "id": "EU-CY",
+      "name": "Cyprus",
+      "level": "country",
+      "lat": 35.1,
+      "lon": 33.3,
+      "gasoline": {
+        "value": 1.485
+      },
+      "diesel": {
+        "value": 1.595
+      }
+    },
+    {
+      "id": "EU-CZ",
+      "name": "Czechia",
+      "level": "country",
+      "lat": 49.8,
+      "lon": 15.4,
+      "gasoline": {
+        "value": 1.72
+      },
+      "diesel": {
+        "value": 1.707
+      }
+    },
+    {
+      "id": "EU-DK",
+      "name": "Denmark",
+      "level": "country",
+      "lat": 56.1,
+      "lon": 9.6,
+      "gasoline": {
+        "value": 2.459
+      },
+      "diesel": {
+        "value": 2.183
+      }
+    },
+    {
+      "id": "EU-EE",
+      "name": "Estonia",
+      "level": "country",
+      "lat": 58.7,
+      "lon": 25.5,
+      "gasoline": {
+        "value": 1.742
+      },
+      "diesel": {
+        "value": 1.757
+      }
+    },
+    {
+      "id": "EU-FI",
+      "name": "Finland",
+      "level": "country",
+      "lat": 63.9,
+      "lon": 26.9,
+      "gasoline": {
+        "value": 2.163
+      },
+      "diesel": {
+        "value": 2.196
+      }
+    },
+    {
+      "id": "EU-FR",
+      "name": "France",
+      "level": "country",
+      "lat": 46.7,
+      "lon": 2.5,
+      "gasoline": {
+        "value": 2.01
+      },
+      "diesel": {
+        "value": 2.066
+      }
+    },
+    {
+      "id": "EU-DE",
+      "name": "Germany",
+      "level": "country",
+      "lat": 51.1,
+      "lon": 10.3,
+      "gasoline": {
+        "value": 2.192
+      },
+      "diesel": {
+        "value": 2.158
+      }
+    },
+    {
+      "id": "EU-EL",
+      "name": "Greece",
+      "level": "country",
+      "lat": 39.5,
+      "lon": 22.9,
+      "gasoline": {
+        "value": 1.977
+      },
+      "diesel": {
+        "value": 1.95
+      }
+    },
+    {
+      "id": "EU-HU",
+      "name": "Hungary",
+      "level": "country",
+      "lat": 47.1,
+      "lon": 19.5,
+      "gasoline": {
+        "value": 1.642
+      },
+      "diesel": {
+        "value": 1.687
+      }
+    },
+    {
+      "id": "EU-IE",
+      "name": "Ireland",
+      "level": "country",
+      "lat": 53.2,
+      "lon": -8.0,
+      "gasoline": {
+        "value": 1.72
+      },
+      "diesel": {
+        "value": 1.695
+      }
+    },
+    {
+      "id": "EU-IT",
+      "name": "Italy",
+      "level": "country",
+      "lat": 42.8,
+      "lon": 12.6,
+      "gasoline": {
+        "value": 1.91
+      },
+      "diesel": {
+        "value": 2.038
+      }
+    },
+    {
+      "id": "EU-LV",
+      "name": "Latvia",
+      "level": "country",
+      "lat": 56.9,
+      "lon": 24.9,
+      "gasoline": {
+        "value": 1.812
+      },
+      "diesel": {
+        "value": 1.798
+      }
+    },
+    {
+      "id": "EU-LT",
+      "name": "Lithuania",
+      "level": "country",
+      "lat": 55.3,
+      "lon": 23.9,
+      "gasoline": {
+        "value": 1.769
+      },
+      "diesel": {
+        "value": 1.927
+      }
+    },
+    {
+      "id": "EU-LU",
+      "name": "Luxembourg",
+      "level": "country",
+      "lat": 49.8,
+      "lon": 6.1,
+      "gasoline": {
+        "value": 1.726
+      },
+      "diesel": {
+        "value": 1.804
+      }
+    },
+    {
+      "id": "EU-MT",
+      "name": "Malta",
+      "level": "country",
+      "lat": 35.9,
+      "lon": 14.4,
+      "gasoline": {
+        "value": 1.34
+      },
+      "diesel": {
+        "value": 1.21
+      }
+    },
+    {
+      "id": "EU-NL",
+      "name": "Netherlands",
+      "level": "country",
+      "lat": 52.3,
+      "lon": 5.6,
+      "gasoline": {
+        "value": 2.341
+      },
+      "diesel": {
+        "value": 2.31
+      }
+    },
+    {
+      "id": "EU-PL",
+      "name": "Poland",
+      "level": "country",
+      "lat": 52.0,
+      "lon": 19.5,
+      "gasoline": {
+        "value": 1.682
+      },
+      "diesel": {
+        "value": 1.725
+      }
+    },
+    {
+      "id": "EU-PT",
+      "name": "Portugal",
+      "level": "country",
+      "lat": 39.6,
+      "lon": -8.2,
+      "gasoline": {
+        "value": 1.972
+      },
+      "diesel": {
+        "value": 1.96
+      }
+    },
+    {
+      "id": "EU-RO",
+      "name": "Romania",
+      "level": "country",
+      "lat": 45.9,
+      "lon": 24.9,
+      "gasoline": {
+        "value": 1.721
+      },
+      "diesel": {
+        "value": 1.888
+      }
+    },
+    {
+      "id": "EU-SK",
+      "name": "Slovakia",
+      "level": "country",
+      "lat": 48.7,
+      "lon": 19.5,
+      "gasoline": {
+        "value": 1.713
+      },
+      "diesel": {
+        "value": 1.668
+      }
+    },
+    {
+      "id": "EU-SI",
+      "name": "Slovenia",
+      "level": "country",
+      "lat": 46.1,
+      "lon": 14.9,
+      "gasoline": {
+        "value": 1.587
+      },
+      "diesel": {
+        "value": 1.69
+      }
+    },
+    {
+      "id": "EU-ES",
+      "name": "Spain",
+      "level": "country",
+      "lat": 40.3,
+      "lon": -3.7,
+      "gasoline": {
+        "value": 1.582
+      },
+      "diesel": {
+        "value": 1.622
+      }
+    },
+    {
+      "id": "EU-SE",
+      "name": "Sweden",
+      "level": "country",
+      "lat": 62.2,
+      "lon": 15.6,
+      "gasoline": {
+        "value": 1.439
+      },
+      "diesel": {
+        "value": 1.707
+      }
+    }
+  ]
+}

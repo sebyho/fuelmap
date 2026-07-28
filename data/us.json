@@ -1,0 +1,210 @@
+{
+  "updated_at": "2026-07-28T15:25:56Z",
+  "source": "U.S. Energy Information Administration (EIA), weekly Gasoline and Diesel Fuel Update",
+  "unit": "USD/gal",
+  "note": "EIA's free weekly survey only covers the national average, 5 PADD regions, and 9 individual states (CA, CO, FL, MA, MN, NY, OH, TX, WA for gasoline; CA additionally for diesel). Other states are not shown individually rather than guessed at.",
+  "regions": [
+    {
+      "id": "US",
+      "name": "U.S. national average",
+      "level": "national",
+      "lat": 39.5,
+      "lon": -98.35,
+      "gasoline": {
+        "value": 4.096,
+        "date": "2026-07-27"
+      },
+      "diesel": {
+        "value": 5.313,
+        "date": "2026-07-27"
+      }
+    },
+    {
+      "id": "PADD1",
+      "name": "East Coast (PADD 1)",
+      "level": "padd",
+      "lat": 39.5,
+      "lon": -77.0,
+      "gasoline": {
+        "value": 3.997,
+        "date": "2026-07-27"
+      },
+      "diesel": {
+        "value": 5.354,
+        "date": "2026-07-27"
+      }
+    },
+    {
+      "id": "PADD2",
+      "name": "Midwest (PADD 2)",
+      "level": "padd",
+      "lat": 41.0,
+      "lon": -93.0,
+      "gasoline": {
+        "value": 3.882,
+        "date": "2026-07-27"
+      },
+      "diesel": {
+        "value": 5.196,
+        "date": "2026-07-27"
+      }
+    },
+    {
+      "id": "PADD3",
+      "name": "Gulf Coast (PADD 3)",
+      "level": "padd",
+      "lat": 30.5,
+      "lon": -92.0,
+      "gasoline": {
+        "value": 3.69,
+        "date": "2026-07-27"
+      },
+      "diesel": {
+        "value": 5.087,
+        "date": "2026-07-27"
+      }
+    },
+    {
+      "id": "PADD4",
+      "name": "Rocky Mountain (PADD 4)",
+      "level": "padd",
+      "lat": 43.5,
+      "lon": -108.0,
+      "gasoline": {
+        "value": 4.083,
+        "date": "2026-07-27"
+      },
+      "diesel": {
+        "value": 5.141,
+        "date": "2026-07-27"
+      }
+    },
+    {
+      "id": "PADD5",
+      "name": "West Coast (PADD 5)",
+      "level": "padd",
+      "lat": 40.0,
+      "lon": -120.0,
+      "gasoline": {
+        "value": 5.117,
+        "date": "2026-07-27"
+      },
+      "diesel": {
+        "value": 6.067,
+        "date": "2026-07-27"
+      }
+    },
+    {
+      "id": "US-CA",
+      "name": "California",
+      "level": "state",
+      "padd": "PADD5",
+      "lat": 36.8,
+      "lon": -119.4,
+      "gasoline": {
+        "value": 5.489,
+        "date": "2026-07-27"
+      },
+      "diesel": {
+        "value": 6.67,
+        "date": "2026-07-27"
+      }
+    },
+    {
+      "id": "US-CO",
+      "name": "Colorado",
+      "level": "state",
+      "padd": "PADD4",
+      "lat": 39.0,
+      "lon": -105.5,
+      "gasoline": {
+        "value": 3.997,
+        "date": "2026-07-27"
+      }
+    },
+    {
+      "id": "US-FL",
+      "name": "Florida",
+      "level": "state",
+      "padd": "PADD1",
+      "lat": 27.8,
+      "lon": -81.7,
+      "gasoline": {
+        "value": 3.921,
+        "date": "2026-07-27"
+      }
+    },
+    {
+      "id": "US-MA",
+      "name": "Massachusetts",
+      "level": "state",
+      "padd": "PADD1",
+      "lat": 42.3,
+      "lon": -71.5,
+      "gasoline": {
+        "value": 4.084,
+        "date": "2026-07-27"
+      }
+    },
+    {
+      "id": "US-MN",
+      "name": "Minnesota",
+      "level": "state",
+      "padd": "PADD2",
+      "lat": 46.0,
+      "lon": -94.6,
+      "gasoline": {
+        "value": 4.039,
+        "date": "2026-07-27"
+      }
+    },
+    {
+      "id": "US-NY",
+      "name": "New York",
+      "level": "state",
+      "padd": "PADD1",
+      "lat": 43.0,
+      "lon": -75.5,
+      "gasoline": {
+        "value": 4.138,
+        "date": "2026-07-27"
+      }
+    },
+    {
+      "id": "US-OH",
+      "name": "Ohio",
+      "level": "state",
+      "padd": "PADD2",
+      "lat": 40.4,
+      "lon": -82.9,
+      "gasoline": {
+        "value": 3.849,
+        "date": "2026-07-27"
+      }
+    },
+    {
+      "id": "US-TX",
+      "name": "Texas",
+      "level": "state",
+      "padd": "PADD3",
+      "lat": 31.5,
+      "lon": -99.3,
+      "gasoline": {
+        "value": 3.644,
+        "date": "2026-07-27"
+      }
+    },
+    {
+      "id": "US-WA",
+      "name": "Washington",
+      "level": "state",
+      "padd": "PADD5",
+      "lat": 47.4,
+      "lon": -120.5,
+      "gasoline": {
+        "value": 5.01,
+        "date": "2026-07-27"
+      }
+    }
+  ]
+}
