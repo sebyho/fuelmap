@@ -39,7 +39,7 @@ OUTPUT_FILE = ROOT / "data" / "eu.json"
 BULLETIN_PAGE = "https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en"
 MIN_COUNTRIES_EXPECTED = 15  # abort if we parse fewer than this — layout probably changed
 
-HEADERS = {"User-Agent": "pump-fuelmap/1.0 (open-source fuel price map; github.com/YOUR_USERNAME/YOUR_REPO)"}
+HEADERS = {"User-Agent": "pump-fuelmap/1.0 (open-source fuel price map; https://github.com/sebyho/fuelmap)"}
 
 
 def find_xlsx_url(html: str) -> str | None:
