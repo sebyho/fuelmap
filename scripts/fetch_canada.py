@@ -30,7 +30,7 @@ GEO_FILE = ROOT / "scripts" / "geo_canada.json"
 OUTPUT_FILE = ROOT / "data" / "canada.json"
 PRODUCT_ID = "18100001"  # table 18-10-0001-01
 WDS_URL = f"https://www150.statcan.gc.ca/t1/wds/rest/getFullTableDownloadCSV/{PRODUCT_ID}/en"
-HEADERS = {"User-Agent": "pump-fuelmap/1.0 (open-source fuel price map; github.com/YOUR_USERNAME/YOUR_REPO)"}
+HEADERS = {"User-Agent": "pump-fuelmap/1.0 (open-source fuel price map; https://github.com/sebyho/fuelmap)"}
 
 
 def fetch_bytes(url: str) -> bytes | None:
