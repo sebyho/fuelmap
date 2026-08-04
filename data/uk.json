@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T03:41:29Z",
+  "updated_at": "2026-08-04T09:11:49Z",
   "source": "DESNZ, Weekly Road Fuel Prices (gov.uk / CMA Road Fuel Prices Scheme)",
   "unit": "GBP/L",
   "regions": [
@@ -10,12 +10,12 @@
       "lat": 54.0,
       "lon": -2.5,
       "gasoline": {
-        "value": 1.561,
-        "date": "27/07/2026"
+        "value": 1.599,
+        "date": "03/08/2026"
       },
       "diesel": {
-        "value": 1.74,
-        "date": "27/07/2026"
+        "value": 1.792,
+        "date": "03/08/2026"
       }
     }
   ]
