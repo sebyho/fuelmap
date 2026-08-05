@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-08-05T09:08:48Z",
+  "updated_at": "2026-08-05T19:57:39Z",
   "series": {
     "wti": {
       "name": "WTI Crude (Cushing)",
       "unit": "USD/bbl",
-      "latest": 84.25,
-      "previous": 91.74,
-      "date": "2026-07-27"
+      "latest": 81.96,
+      "previous": 86.16,
+      "date": "2026-08-03"
     },
     "brent": {
       "name": "Brent Crude",
       "unit": "USD/bbl",
-      "latest": 91.82,
-      "previous": 100.31,
-      "date": "2026-07-27"
+      "latest": 88.9,
+      "previous": 96.95,
+      "date": "2026-08-03"
     }
   }
 }
