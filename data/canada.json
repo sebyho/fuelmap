@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T11:49:35Z",
+  "updated_at": "2026-09-15T17:07:35Z",
   "source": "Statistics Canada, Table 18-10-0001-01 (monthly average retail gasoline prices)",
   "unit": "CAD/L",
   "note": "Monthly (not weekly) data, regular unleaded gasoline only, for major cities StatCan tracks — not a full province breakdown.",
@@ -12,8 +12,8 @@
       "lat": 47.56,
       "lon": -52.71,
       "gasoline": {
-        "value": 1.964,
-        "date": "2026-07"
+        "value": 1.943,
+        "date": "2026-08"
       }
     },
     {
@@ -24,8 +24,8 @@
       "lat": 44.65,
       "lon": -63.57,
       "gasoline": {
-        "value": 1.842,
-        "date": "2026-07"
+        "value": 1.814,
+        "date": "2026-08"
       }
     },
     {
@@ -36,8 +36,8 @@
       "lat": 45.27,
       "lon": -66.06,
       "gasoline": {
-        "value": 1.806,
-        "date": "2026-07"
+        "value": 1.794,
+        "date": "2026-08"
       }
     },
     {
@@ -48,8 +48,8 @@
       "lat": 43.65,
       "lon": -79.38,
       "gasoline": {
-        "value": 1.727,
-        "date": "2026-07"
+        "value": 1.703,
+        "date": "2026-08"
       }
     },
     {
@@ -60,8 +60,8 @@
       "lat": 48.38,
       "lon": -89.25,
       "gasoline": {
-        "value": 1.753,
-        "date": "2026-07"
+        "value": 1.72,
+        "date": "2026-08"
       }
     },
     {
@@ -72,8 +72,8 @@
       "lat": 49.9,
       "lon": -97.14,
       "gasoline": {
-        "value": 1.662,
-        "date": "2026-07"
+        "value": 1.669,
+        "date": "2026-08"
       }
     },
     {
@@ -84,8 +84,8 @@
       "lat": 50.45,
       "lon": -104.62,
       "gasoline": {
-        "value": 1.681,
-        "date": "2026-07"
+        "value": 1.675,
+        "date": "2026-08"
       }
     },
     {
@@ -96,8 +96,8 @@
       "lat": 52.13,
       "lon": -106.67,
       "gasoline": {
-        "value": 1.674,
-        "date": "2026-07"
+        "value": 1.637,
+        "date": "2026-08"
       }
     },
     {
@@ -108,8 +108,8 @@
       "lat": 53.55,
       "lon": -113.49,
       "gasoline": {
-        "value": 1.625,
-        "date": "2026-07"
+        "value": 1.603,
+        "date": "2026-08"
       }
     },
     {
@@ -120,8 +120,8 @@
       "lat": 51.05,
       "lon": -114.07,
       "gasoline": {
-        "value": 1.682,
-        "date": "2026-07"
+        "value": 1.623,
+        "date": "2026-08"
       }
     },
     {
@@ -132,8 +132,8 @@
       "lat": 49.28,
       "lon": -123.12,
       "gasoline": {
-        "value": 2.007,
-        "date": "2026-07"
+        "value": 2.067,
+        "date": "2026-08"
       }
     },
     {
@@ -144,8 +144,8 @@
       "lat": 48.43,
       "lon": -123.37,
       "gasoline": {
-        "value": 1.913,
-        "date": "2026-07"
+        "value": 2.012,
+        "date": "2026-08"
       }
     },
     {
@@ -156,8 +156,8 @@
       "lat": 60.72,
       "lon": -135.05,
       "gasoline": {
-        "value": 1.895,
-        "date": "2026-07"
+        "value": 1.959,
+        "date": "2026-08"
       }
     },
     {
@@ -168,8 +168,8 @@
       "lat": 62.45,
       "lon": -114.37,
       "gasoline": {
-        "value": 1.809,
-        "date": "2026-07"
+        "value": 1.805,
+        "date": "2026-08"
       }
     },
     {
@@ -180,8 +180,8 @@
       "lat": 56.1,
       "lon": -106.3,
       "gasoline": {
-        "value": 1.755,
-        "date": "2026-07"
+        "value": 1.738,
+        "date": "2026-08"
       }
     }
   ]

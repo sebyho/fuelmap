@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T11:49:31Z",
+  "updated_at": "2026-09-15T17:07:31Z",
   "source": "U.S. Energy Information Administration (EIA), weekly Gasoline and Diesel Fuel Update",
   "unit": "USD/gal",
   "note": "EIA's free weekly survey only covers the national average, 5 PADD regions, and 9 individual states (CA, CO, FL, MA, MN, NY, OH, TX, WA for gasoline; CA additionally for diesel). Other states are not shown individually rather than guessed at.",
@@ -11,12 +11,12 @@
       "lat": 39.5,
       "lon": -98.35,
       "gasoline": {
-        "value": 4.157,
-        "date": "2026-09-07"
+        "value": 4.319,
+        "date": "2026-09-14"
       },
       "diesel": {
-        "value": 5.967,
-        "date": "2026-09-07"
+        "value": 6.285,
+        "date": "2026-09-14"
       }
     },
     {
@@ -26,12 +26,12 @@
       "lat": 39.5,
       "lon": -77.0,
       "gasoline": {
-        "value": 4.031,
-        "date": "2026-09-07"
+        "value": 4.191,
+        "date": "2026-09-14"
       },
       "diesel": {
-        "value": 5.744,
-        "date": "2026-09-07"
+        "value": 6.158,
+        "date": "2026-09-14"
       }
     },
     {
@@ -41,12 +41,12 @@
       "lat": 41.0,
       "lon": -93.0,
       "gasoline": {
-        "value": 3.894,
-        "date": "2026-09-07"
+        "value": 4.091,
+        "date": "2026-09-14"
       },
       "diesel": {
-        "value": 5.946,
-        "date": "2026-09-07"
+        "value": 6.25,
+        "date": "2026-09-14"
       }
     },
     {
@@ -56,12 +56,12 @@
       "lat": 30.5,
       "lon": -92.0,
       "gasoline": {
-        "value": 3.685,
-        "date": "2026-09-07"
+        "value": 3.852,
+        "date": "2026-09-14"
       },
       "diesel": {
-        "value": 5.754,
-        "date": "2026-09-07"
+        "value": 6.027,
+        "date": "2026-09-14"
       }
     },
     {
@@ -71,12 +71,12 @@
       "lat": 43.5,
       "lon": -108.0,
       "gasoline": {
-        "value": 4.314,
-        "date": "2026-09-07"
+        "value": 4.438,
+        "date": "2026-09-14"
       },
       "diesel": {
-        "value": 5.805,
-        "date": "2026-09-07"
+        "value": 6.066,
+        "date": "2026-09-14"
       }
     },
     {
@@ -86,12 +86,12 @@
       "lat": 40.0,
       "lon": -120.0,
       "gasoline": {
-        "value": 5.362,
-        "date": "2026-09-07"
+        "value": 5.467,
+        "date": "2026-09-14"
       },
       "diesel": {
-        "value": 6.987,
-        "date": "2026-09-07"
+        "value": 7.25,
+        "date": "2026-09-14"
       }
     },
     {
@@ -102,12 +102,12 @@
       "lat": 36.8,
       "lon": -119.4,
       "gasoline": {
-        "value": 5.678,
-        "date": "2026-09-07"
+        "value": 5.827,
+        "date": "2026-09-14"
       },
       "diesel": {
-        "value": 7.764,
-        "date": "2026-09-07"
+        "value": 8.039,
+        "date": "2026-09-14"
       }
     },
     {
@@ -118,8 +118,8 @@
       "lat": 39.0,
       "lon": -105.5,
       "gasoline": {
-        "value": 4.187,
-        "date": "2026-09-07"
+        "value": 4.23,
+        "date": "2026-09-14"
       }
     },
     {
@@ -130,8 +130,8 @@
       "lat": 27.8,
       "lon": -81.7,
       "gasoline": {
-        "value": 3.86,
-        "date": "2026-09-07"
+        "value": 4.102,
+        "date": "2026-09-14"
       }
     },
     {
@@ -142,8 +142,8 @@
       "lat": 42.3,
       "lon": -71.5,
       "gasoline": {
-        "value": 4.16,
-        "date": "2026-09-07"
+        "value": 4.253,
+        "date": "2026-09-14"
       }
     },
     {
@@ -154,8 +154,8 @@
       "lat": 46.0,
       "lon": -94.6,
       "gasoline": {
-        "value": 4.077,
-        "date": "2026-09-07"
+        "value": 4.223,
+        "date": "2026-09-14"
       }
     },
     {
@@ -166,8 +166,8 @@
       "lat": 43.0,
       "lon": -75.5,
       "gasoline": {
-        "value": 4.26,
-        "date": "2026-09-07"
+        "value": 4.339,
+        "date": "2026-09-14"
       }
     },
     {
@@ -178,8 +178,8 @@
       "lat": 40.4,
       "lon": -82.9,
       "gasoline": {
-        "value": 3.885,
-        "date": "2026-09-07"
+        "value": 4.147,
+        "date": "2026-09-14"
       }
     },
     {
@@ -190,8 +190,8 @@
       "lat": 31.5,
       "lon": -99.3,
       "gasoline": {
-        "value": 3.618,
-        "date": "2026-09-07"
+        "value": 3.806,
+        "date": "2026-09-14"
       }
     },
     {
@@ -202,8 +202,8 @@
       "lat": 47.4,
       "lon": -120.5,
       "gasoline": {
-        "value": 5.483,
-        "date": "2026-09-07"
+        "value": 5.503,
+        "date": "2026-09-14"
       }
     }
   ]
