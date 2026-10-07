@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T13:30:32Z",
+  "updated_at": "2026-10-07T23:08:35Z",
   "source": "European Commission, Weekly Oil Bulletin (DG ENER)",
   "unit": "EUR/L",
   "note": "National average consumer prices including all taxes, as reported by each member state.",
@@ -11,10 +11,10 @@
       "lat": 47.6,
       "lon": 14.1,
       "gasoline": {
-        "value": 1.956
+        "value": 1.837
       },
       "diesel": {
-        "value": 2.259
+        "value": 2.138
       }
     },
     {
@@ -24,10 +24,10 @@
       "lat": 50.6,
       "lon": 4.6,
       "gasoline": {
-        "value": 2.032
+        "value": 1.959
       },
       "diesel": {
-        "value": 2.43
+        "value": 2.349
       }
     },
     {
@@ -37,10 +37,10 @@
       "lat": 42.7,
       "lon": 25.3,
       "gasoline": {
-        "value": 1.675
+        "value": 1.663
       },
       "diesel": {
-        "value": 1.928
+        "value": 1.893
       }
     },
     {
@@ -50,10 +50,10 @@
       "lat": 45.3,
       "lon": 16.4,
       "gasoline": {
-        "value": 1.808
+        "value": 1.827
       },
       "diesel": {
-        "value": 2.036
+        "value": 1.984
       }
     },
     {
@@ -63,10 +63,10 @@
       "lat": 35.1,
       "lon": 33.3,
       "gasoline": {
-        "value": 1.733
+        "value": 1.744
       },
       "diesel": {
-        "value": 2.023
+        "value": 2.03
       }
     },
     {
@@ -76,10 +76,10 @@
       "lat": 49.8,
       "lon": 15.4,
       "gasoline": {
-        "value": 1.88
+        "value": 1.847
       },
       "diesel": {
-        "value": 2.076
+        "value": 1.952
       }
     },
     {
@@ -89,10 +89,10 @@
       "lat": 56.1,
       "lon": 9.6,
       "gasoline": {
-        "value": 2.658
+        "value": 2.605
       },
       "diesel": {
-        "value": 2.542
+        "value": 2.488
       }
     },
     {
@@ -102,10 +102,10 @@
       "lat": 58.7,
       "lon": 25.5,
       "gasoline": {
-        "value": 1.928
+        "value": 1.945
       },
       "diesel": {
-        "value": 2.239
+        "value": 2.096
       }
     },
     {
@@ -115,10 +115,10 @@
       "lat": 63.9,
       "lon": 26.9,
       "gasoline": {
-        "value": 2.331
+        "value": 2.37
       },
       "diesel": {
-        "value": 2.523
+        "value": 2.553
       }
     },
     {
@@ -128,10 +128,10 @@
       "lat": 46.7,
       "lon": 2.5,
       "gasoline": {
-        "value": 2.213
+        "value": 2.212
       },
       "diesel": {
-        "value": 2.371
+        "value": 2.355
       }
     },
     {
@@ -141,10 +141,10 @@
       "lat": 51.1,
       "lon": 10.3,
       "gasoline": {
-        "value": 2.345
+        "value": 2.137
       },
       "diesel": {
-        "value": 2.437
+        "value": 2.244
       }
     },
     {
@@ -154,10 +154,10 @@
       "lat": 39.5,
       "lon": 22.9,
       "gasoline": {
-        "value": 2.205
+        "value": 2.203
       },
       "diesel": {
-        "value": 2.216
+        "value": 2.166
       }
     },
     {
@@ -167,10 +167,10 @@
       "lat": 47.1,
       "lon": 19.5,
       "gasoline": {
-        "value": 1.729
+        "value": 1.726
       },
       "diesel": {
-        "value": 1.932
+        "value": 1.928
       }
     },
     {
@@ -180,10 +180,10 @@
       "lat": 53.2,
       "lon": -8.0,
       "gasoline": {
-        "value": 1.972
+        "value": 1.983
       },
       "diesel": {
-        "value": 2.123
+        "value": 2.164
       }
     },
     {
@@ -193,10 +193,10 @@
       "lat": 42.8,
       "lon": 12.6,
       "gasoline": {
-        "value": 2.156
+        "value": 2.073
       },
       "diesel": {
-        "value": 2.351
+        "value": 2.273
       }
     },
     {
@@ -206,10 +206,10 @@
       "lat": 56.9,
       "lon": 24.9,
       "gasoline": {
-        "value": 2.038
+        "value": 1.962
       },
       "diesel": {
-        "value": 2.132
+        "value": 2.12
       }
     },
     {
@@ -219,10 +219,10 @@
       "lat": 55.3,
       "lon": 23.9,
       "gasoline": {
-        "value": 1.954
+        "value": 1.938
       },
       "diesel": {
-        "value": 2.253
+        "value": 2.241
       }
     },
     {
@@ -232,10 +232,10 @@
       "lat": 49.8,
       "lon": 6.1,
       "gasoline": {
-        "value": 1.888
+        "value": 1.837
       },
       "diesel": {
-        "value": 2.095
+        "value": 2.057
       }
     },
     {
@@ -258,10 +258,10 @@
       "lat": 52.3,
       "lon": 5.6,
       "gasoline": {
-        "value": 2.465
+        "value": 2.432
       },
       "diesel": {
-        "value": 2.526
+        "value": 2.506
       }
     },
     {
@@ -271,10 +271,10 @@
       "lat": 52.0,
       "lon": 19.5,
       "gasoline": {
-        "value": 1.853
+        "value": 1.52
       },
       "diesel": {
-        "value": 2.06
+        "value": 1.764
       }
     },
     {
@@ -284,10 +284,10 @@
       "lat": 39.6,
       "lon": -8.2,
       "gasoline": {
-        "value": 2.099
+        "value": 2.081
       },
       "diesel": {
-        "value": 2.186
+        "value": 2.155
       }
     },
     {
@@ -297,10 +297,10 @@
       "lat": 45.9,
       "lon": 24.9,
       "gasoline": {
-        "value": 1.897
+        "value": 2.117
       },
       "diesel": {
-        "value": 2.104
+        "value": 2.05
       }
     },
     {
@@ -310,10 +310,10 @@
       "lat": 48.7,
       "lon": 19.5,
       "gasoline": {
-        "value": 1.853
+        "value": 1.845
       },
       "diesel": {
-        "value": 1.978
+        "value": 1.972
       }
     },
     {
@@ -323,10 +323,10 @@
       "lat": 46.1,
       "lon": 14.9,
       "gasoline": {
-        "value": 1.745
+        "value": 1.763
       },
       "diesel": {
-        "value": 2.011
+        "value": 1.981
       }
     },
     {
@@ -336,10 +336,10 @@
       "lat": 40.3,
       "lon": -3.7,
       "gasoline": {
-        "value": 1.94
+        "value": 1.849
       },
       "diesel": {
-        "value": 1.934
+        "value": 1.918
       }
     },
     {
@@ -349,10 +349,10 @@
       "lat": 62.2,
       "lon": 15.6,
       "gasoline": {
-        "value": 1.595
+        "value": 1.589
       },
       "diesel": {
-        "value": 2.135
+        "value": 2.118
       }
     }
   ]
